@@ -1,19 +1,3 @@
-# JS_data-structure-study
-
-자바스크립트로 구현해보는 자료구조
-
-자료구조를 연습하는 행위 === 알고리즘과도 동일하다.
-
-## 연결리스트 (Linked List)
-
-### 연결리스트 (Linked List)란?
-
-데이터를 체인처럼 연결하는 자료구조.
-각 데이터가 노드(Node)로 불리고, 각 노드는 다음 노드를 가리키는 포인터를 가지고 있다.
-
-### 연결리스트 (Linked List) 구현 예시 코드
-
-```javascript
 class LinkedList {
   length = 0; // 리스트 길이
   head = null; // 리스트 첫 번째 노드를 가리키는 포인터
@@ -97,7 +81,6 @@ linkedList.remove(4);
 console.log(linkedList.search(3)); // undefined
 console.log(linkedList.remove(2)); // undefined
 console.log("------끝------------");
-```
 
-해당 예시에서 연결리스트는 다음과 같이 구성됨
-`1 -> 2 -> 3 -> 4 -> 5 -> 6`
+// 해당 예시에서 연결리스트는 다음과 같이 구성됨
+// 1 -> 2 -> 3 -> 4 -> 5 -> 6
